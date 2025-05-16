@@ -1,0 +1,902 @@
+actions-version: 2
+quests:
+  1:
+    type: sneak
+    variable: none
+    name: Quest 1
+    required-progress: 4
+    points: 5
+    difficulty: easy
+    item:
+      material: experience_bottle
+      name: '{#00bfff}Quest 1'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''sneak'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  2:
+    type: bucket-place
+    variable: none
+    name: Quest 2
+    required-progress: 37
+    points: 10
+    difficulty: medium
+    item:
+      material: stone
+      name: '{#00bfff}Quest 2'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''bucket-place'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  3:
+    type: damage-player
+    variable: none
+    name: Quest 3
+    required-progress: 37
+    points: 20
+    difficulty: hard
+    item:
+      material: furnace
+      name: '{#00bfff}Quest 3'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''damage-player'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  4:
+    type: brew
+    variable: none
+    name: Quest 4
+    required-progress: 13
+    points: 5
+    difficulty: easy
+    item:
+      material: stick
+      name: '{#00bfff}Quest 4'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''brew'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  5:
+    type: kill-player
+    variable: none
+    name: Quest 5
+    required-progress: 19
+    points: 10
+    difficulty: medium
+    item:
+      material: glass
+      name: '{#00bfff}Quest 5'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''kill-player'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  6:
+    type: sprint
+    variable: none
+    name: Quest 6
+    required-progress: 11
+    points: 5
+    difficulty: easy
+    item:
+      material: golden_apple
+      name: '{#00bfff}Quest 6'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''sprint'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  7:
+    type: shear
+    variable: none
+    name: Quest 7
+    required-progress: 4
+    points: 5
+    difficulty: easy
+    item:
+      material: potion
+      name: '{#00bfff}Quest 7'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''shear'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  8:
+    type: glide
+    variable: none
+    name: Quest 8
+    required-progress: 6
+    points: 5
+    difficulty: easy
+    item:
+      material: bucket
+      name: '{#00bfff}Quest 8'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''glide'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  9:
+    type: right-click
+    variable: none
+    name: Quest 9
+    required-progress: 9
+    points: 5
+    difficulty: easy
+    item:
+      material: fishing_rod
+      name: '{#00bfff}Quest 9'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''right-click'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  10:
+    type: block-break
+    variable: none
+    name: Quest 10
+    required-progress: 86
+    points: 20
+    difficulty: hard
+    item:
+      material: stick
+      name: '{#00bfff}Quest 10'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''block-break'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  11:
+    type: left-click-block
+    variable: none
+    name: Quest 11
+    required-progress: 90
+    points: 20
+    difficulty: hard
+    item:
+      material: feather
+      name: '{#00bfff}Quest 11'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''left-click-block'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  12:
+    type: honey-comb-extract
+    variable: none
+    name: Quest 12
+    required-progress: 15
+    points: 5
+    difficulty: easy
+    item:
+      material: stick
+      name: '{#00bfff}Quest 12'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''honey-comb-extract'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  13:
+    type: consume
+    variable: none
+    name: Quest 13
+    required-progress: 44
+    points: 20
+    difficulty: hard
+    item:
+      material: honey_bottle
+      name: '{#00bfff}Quest 13'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''consume'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  14:
+    type: tame
+    variable: none
+    name: Quest 14
+    required-progress: 41
+    points: 10
+    difficulty: medium
+    item:
+      material: feather
+      name: '{#00bfff}Quest 14'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''tame'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  15:
+    type: right-click-block
+    variable: none
+    name: Quest 15
+    required-progress: 18
+    points: 10
+    difficulty: medium
+    item:
+      material: golden_apple
+      name: '{#00bfff}Quest 15'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''right-click-block'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  16:
+    type: login
+    variable: none
+    name: Quest 16
+    required-progress: 48
+    points: 10
+    difficulty: medium
+    item:
+      material: paper
+      name: '{#00bfff}Quest 16'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''login'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  17:
+    type: kill-mob
+    variable: none
+    name: Quest 17
+    required-progress: 15
+    points: 5
+    difficulty: easy
+    item:
+      material: stick
+      name: '{#00bfff}Quest 17'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''kill-mob'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  18:
+    type: ride-mob
+    variable: none
+    name: Quest 18
+    required-progress: 14
+    points: 5
+    difficulty: easy
+    item:
+      material: paper
+      name: '{#00bfff}Quest 18'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''ride-mob'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  19:
+    type: milk
+    variable: none
+    name: Quest 19
+    required-progress: 30
+    points: 20
+    difficulty: hard
+    item:
+      material: dirt
+      name: '{#00bfff}Quest 19'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''milk'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  20:
+    type: chat-stripped
+    variable: none
+    name: Quest 20
+    required-progress: 9
+    points: 5
+    difficulty: easy
+    item:
+      material: elytra
+      name: '{#00bfff}Quest 20'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''chat-stripped'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  21:
+    type: gain-experience
+    variable: none
+    name: Quest 21
+    required-progress: 4
+    points: 5
+    difficulty: easy
+    item:
+      material: elytra
+      name: '{#00bfff}Quest 21'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''gain-experience'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  22:
+    type: enchant-anvil
+    variable: none
+    name: Quest 22
+    required-progress: 10
+    points: 5
+    difficulty: easy
+    item:
+      material: elytra
+      name: '{#00bfff}Quest 22'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''enchant-anvil'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  23:
+    type: execute-command
+    variable: none
+    name: Quest 23
+    required-progress: 59
+    points: 20
+    difficulty: hard
+    item:
+      material: bread
+      name: '{#00bfff}Quest 23'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''execute-command'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  24:
+    type: fly
+    variable: none
+    name: Quest 24
+    required-progress: 9
+    points: 5
+    difficulty: easy
+    item:
+      material: bucket
+      name: '{#00bfff}Quest 24'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''fly'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  25:
+    type: throw-projectile
+    variable: none
+    name: Quest 25
+    required-progress: 9
+    points: 5
+    difficulty: easy
+    item:
+      material: bread
+      name: '{#00bfff}Quest 25'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''throw-projectile'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  26:
+    type: craft
+    variable: none
+    name: Quest 26
+    required-progress: 47
+    points: 10
+    difficulty: medium
+    item:
+      material: honeycomb
+      name: '{#00bfff}Quest 26'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''craft'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  27:
+    type: move
+    variable: none
+    name: Quest 27
+    required-progress: 7
+    points: 5
+    difficulty: easy
+    item:
+      material: fishing_rod
+      name: '{#00bfff}Quest 27'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''move'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  28:
+    type: regenerate
+    variable: none
+    name: Quest 28
+    required-progress: 4
+    points: 5
+    difficulty: easy
+    item:
+      material: apple
+      name: '{#00bfff}Quest 28'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''regenerate'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  29:
+    type: chat
+    variable: none
+    name: Quest 29
+    required-progress: 90
+    points: 20
+    difficulty: hard
+    item:
+      material: apple
+      name: '{#00bfff}Quest 29'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''chat'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  30:
+    type: swim
+    variable: none
+    name: Quest 30
+    required-progress: 17
+    points: 10
+    difficulty: medium
+    item:
+      material: feather
+      name: '{#00bfff}Quest 30'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''swim'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  31:
+    type: left-click
+    variable: none
+    name: Quest 31
+    required-progress: 88
+    points: 20
+    difficulty: hard
+    item:
+      material: bone
+      name: '{#00bfff}Quest 31'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''left-click'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  32:
+    type: fish
+    variable: none
+    name: Quest 32
+    required-progress: 16
+    points: 10
+    difficulty: medium
+    item:
+      material: iron_sword
+      name: '{#00bfff}Quest 32'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''fish'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  33:
+    type: item-break
+    variable: none
+    name: Quest 33
+    required-progress: 35
+    points: 10
+    difficulty: medium
+    item:
+      material: apple
+      name: '{#00bfff}Quest 33'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''item-break'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  34:
+    type: enchant
+    variable: none
+    name: Quest 34
+    required-progress: 10
+    points: 5
+    difficulty: easy
+    item:
+      material: stone
+      name: '{#00bfff}Quest 34'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''enchant'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  35:
+    type: block-place
+    variable: none
+    name: Quest 35
+    required-progress: 15
+    points: 5
+    difficulty: easy
+    item:
+      material: furnace
+      name: '{#00bfff}Quest 35'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''block-place'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  36:
+    type: playtime
+    variable: none
+    name: Quest 36
+    required-progress: 43
+    points: 10
+    difficulty: medium
+    item:
+      material: diamond
+      name: '{#00bfff}Quest 36'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''playtime'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  37:
+    type: enchant-all
+    variable: none
+    name: Quest 37
+    required-progress: 75
+    points: 20
+    difficulty: hard
+    item:
+      material: shears
+      name: '{#00bfff}Quest 37'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''enchant-all'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  38:
+    type: honey-extract
+    variable: none
+    name: Quest 38
+    required-progress: 42
+    points: 10
+    difficulty: medium
+    item:
+      material: stick
+      name: '{#00bfff}Quest 38'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''honey-extract'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  39:
+    type: breed
+    variable: none
+    name: Quest 39
+    required-progress: 22
+    points: 10
+    difficulty: medium
+    item:
+      material: shears
+      name: '{#00bfff}Quest 39'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''breed'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  40:
+    type: smelt
+    variable: none
+    name: Quest 40
+    required-progress: 6
+    points: 5
+    difficulty: easy
+    item:
+      material: furnace
+      name: '{#00bfff}Quest 40'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''smelt'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  41:
+    type: honey-comb-extract
+    variable: none
+    name: Quest 41
+    required-progress: 12
+    points: 10
+    difficulty: medium
+    item:
+      material: paper
+      name: '{#00bfff}Quest 41'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''honey-comb-extract'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  42:
+    type: left-click-block
+    variable: none
+    name: Quest 42
+    required-progress: 21
+    points: 10
+    difficulty: medium
+    item:
+      material: honey_bottle
+      name: '{#00bfff}Quest 42'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''left-click-block'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  43:
+    type: throw-projectile
+    variable: none
+    name: Quest 43
+    required-progress: 6
+    points: 5
+    difficulty: easy
+    item:
+      material: fishing_rod
+      name: '{#00bfff}Quest 43'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''throw-projectile'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  44:
+    type: fish
+    variable: none
+    name: Quest 44
+    required-progress: 13
+    points: 5
+    difficulty: easy
+    item:
+      material: bucket
+      name: '{#00bfff}Quest 44'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''fish'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  45:
+    type: fish
+    variable: none
+    name: Quest 45
+    required-progress: 9
+    points: 5
+    difficulty: easy
+    item:
+      material: diamond
+      name: '{#00bfff}Quest 45'
+      lore:
+      - ''
+      - '&e● &fSoort: &eEasy'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''fish'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  46:
+    type: honey-comb-extract
+    variable: none
+    name: Quest 46
+    required-progress: 29
+    points: 10
+    difficulty: medium
+    item:
+      material: feather
+      name: '{#00bfff}Quest 46'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''honey-comb-extract'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  47:
+    type: craft
+    variable: none
+    name: Quest 47
+    required-progress: 67
+    points: 20
+    difficulty: hard
+    item:
+      material: diamond
+      name: '{#00bfff}Quest 47'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''craft'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  48:
+    type: regenerate
+    variable: none
+    name: Quest 48
+    required-progress: 29
+    points: 20
+    difficulty: hard
+    item:
+      material: wheat
+      name: '{#00bfff}Quest 48'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''regenerate'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  49:
+    type: fly
+    variable: none
+    name: Quest 49
+    required-progress: 11
+    points: 10
+    difficulty: medium
+    item:
+      material: bone
+      name: '{#00bfff}Quest 49'
+      lore:
+      - ''
+      - '&e● &fSoort: &eMedium'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''fly'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+  50:
+    type: right-click-block
+    variable: none
+    name: Quest 50
+    required-progress: 83
+    points: 20
+    difficulty: hard
+    item:
+      material: bone
+      name: '{#00bfff}Quest 50'
+      lore:
+      - ''
+      - '&e● &fSoort: &eHard'
+      - '&e● &fXp(points): &e20'
+      - ''
+      - '&fVoer &e%required_progress% &fkeer ''right-click-block'' uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'

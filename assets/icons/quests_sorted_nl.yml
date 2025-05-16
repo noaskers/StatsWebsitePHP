@@ -1,0 +1,902 @@
+actions-version: 2
+quests:
+  1:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &esneak&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: experience_bottle
+      name: '{#00bfff}Quest 1'
+    name: Sluipsloper
+    points: 5
+    required-progress: 4
+    type: sneak
+    variable: none
+  2:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &ebrew&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stick
+      name: '{#00bfff}Quest 4'
+    name: Brouwmeester
+    points: 5
+    required-progress: 13
+    type: brew
+    variable: none
+  3:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &esprint&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: golden_apple
+      name: '{#00bfff}Quest 6'
+    name: Sprintspecialist
+    points: 5
+    required-progress: 11
+    type: sprint
+    variable: none
+  4:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eshear&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: potion
+      name: '{#00bfff}Quest 7'
+    name: Wollige Vriend
+    points: 5
+    required-progress: 4
+    type: shear
+    variable: none
+  5:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eglide&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bucket
+      name: '{#00bfff}Quest 8'
+    name: Zweefmeester
+    points: 5
+    required-progress: 6
+    type: glide
+    variable: none
+  6:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eright-click&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: fishing_rod
+      name: '{#00bfff}Quest 9'
+    name: Rechterhand Actie
+    points: 5
+    required-progress: 9
+    type: right-click
+    variable: none
+  7:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &ehoney-comb-extract&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stick
+      name: '{#00bfff}Quest 12'
+    name: Waskunstenaar
+    points: 5
+    required-progress: 15
+    type: honey-comb-extract
+    variable: none
+  8:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &ekill-mob&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stick
+      name: '{#00bfff}Quest 17'
+    name: Monsterslachter
+    points: 5
+    required-progress: 15
+    type: kill-mob
+    variable: none
+  9:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eride-mob&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: paper
+      name: '{#00bfff}Quest 18'
+    name: Dierentemmer
+    points: 5
+    required-progress: 14
+    type: ride-mob
+    variable: none
+  10:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &echat-stripped&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: elytra
+      name: '{#00bfff}Quest 20'
+    name: Zuivere Woorden
+    points: 5
+    required-progress: 9
+    type: chat-stripped
+    variable: none
+  11:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &egain-experience&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: elytra
+      name: '{#00bfff}Quest 21'
+    name: Leerling Leven
+    points: 5
+    required-progress: 4
+    type: gain-experience
+    variable: none
+  12:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eenchant-anvil&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: elytra
+      name: '{#00bfff}Quest 22'
+    name: Gesmeed met Magie
+    points: 5
+    required-progress: 10
+    type: enchant-anvil
+    variable: none
+  13:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &efly&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bucket
+      name: '{#00bfff}Quest 24'
+    name: Vliegende Held
+    points: 5
+    required-progress: 9
+    type: fly
+    variable: none
+  14:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &ethrow-projectile&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bread
+      name: '{#00bfff}Quest 25'
+    name: Gooigod
+    points: 5
+    required-progress: 9
+    type: throw-projectile
+    variable: none
+  15:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &emove&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: fishing_rod
+      name: '{#00bfff}Quest 27'
+    name: Beweeglijke Ziel
+    points: 5
+    required-progress: 7
+    type: move
+    variable: none
+  16:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eregenerate&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: apple
+      name: '{#00bfff}Quest 28'
+    name: Herstelheld
+    points: 5
+    required-progress: 4
+    type: regenerate
+    variable: none
+  17:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eenchant&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stone
+      name: '{#00bfff}Quest 34'
+    name: Magische Touch
+    points: 5
+    required-progress: 10
+    type: enchant
+    variable: none
+  18:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &eblock-place&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: furnace
+      name: '{#00bfff}Quest 35'
+    name: Bouwer van Blokken
+    points: 5
+    required-progress: 15
+    type: block-place
+    variable: none
+  19:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &esmelt&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: furnace
+      name: '{#00bfff}Quest 40'
+    name: Smeedkunstenaar
+    points: 5
+    required-progress: 6
+    type: smelt
+    variable: none
+  20:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &ethrow-projectile&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: fishing_rod
+      name: '{#00bfff}Quest 43'
+    name: Gooigod
+    points: 5
+    required-progress: 6
+    type: throw-projectile
+    variable: none
+  21:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &efish&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bucket
+      name: '{#00bfff}Quest 44'
+    name: Vissenvriend
+    points: 5
+    required-progress: 13
+    type: fish
+    variable: none
+  22:
+    difficulty: easy
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMakkelijk'
+      - '&e● &fXp(points): &e5'
+      - ''
+      - '&fVoer de actie &efish&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: diamond
+      name: '{#00bfff}Quest 45'
+    name: Vissenvriend
+    points: 5
+    required-progress: 9
+    type: fish
+    variable: none
+  23:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ebucket-place&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stone
+      name: '{#00bfff}Quest 2'
+    name: Emmer Expert
+    points: 10
+    required-progress: 37
+    type: bucket-place
+    variable: none
+  24:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ekill-player&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: glass
+      name: '{#00bfff}Quest 5'
+    name: PvP Pro
+    points: 10
+    required-progress: 19
+    type: kill-player
+    variable: none
+  25:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &etame&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: feather
+      name: '{#00bfff}Quest 14'
+    name: Hondenfluisteraar
+    points: 10
+    required-progress: 41
+    type: tame
+    variable: none
+  26:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &eright-click-block&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: golden_apple
+      name: '{#00bfff}Quest 15'
+    name: Interactieve Bouwer
+    points: 10
+    required-progress: 18
+    type: right-click-block
+    variable: none
+  27:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &elogin&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: paper
+      name: '{#00bfff}Quest 16'
+    name: Welkom Terug!
+    points: 10
+    required-progress: 48
+    type: login
+    variable: none
+  28:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ecraft&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: honeycomb
+      name: '{#00bfff}Quest 26'
+    name: Vlijtige Vingers
+    points: 10
+    required-progress: 47
+    type: craft
+    variable: none
+  29:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &eswim&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: feather
+      name: '{#00bfff}Quest 30'
+    name: Zwemkampioen
+    points: 10
+    required-progress: 17
+    type: swim
+    variable: none
+  30:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &efish&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: iron_sword
+      name: '{#00bfff}Quest 32'
+    name: Vissenvriend
+    points: 10
+    required-progress: 16
+    type: fish
+    variable: none
+  31:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &eitem-break&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: apple
+      name: '{#00bfff}Quest 33'
+    name: Breker van Gereedschap
+    points: 10
+    required-progress: 35
+    type: item-break
+    variable: none
+  32:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &eplaytime&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: diamond
+      name: '{#00bfff}Quest 36'
+    name: Tijdreiziger
+    points: 10
+    required-progress: 43
+    type: playtime
+    variable: none
+  33:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ehoney-extract&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stick
+      name: '{#00bfff}Quest 38'
+    name: Honingjager
+    points: 10
+    required-progress: 42
+    type: honey-extract
+    variable: none
+  34:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ebreed&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: shears
+      name: '{#00bfff}Quest 39'
+    name: Liefdesboer
+    points: 10
+    required-progress: 22
+    type: breed
+    variable: none
+  35:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ehoney-comb-extract&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: paper
+      name: '{#00bfff}Quest 41'
+    name: Waskunstenaar
+    points: 10
+    required-progress: 12
+    type: honey-comb-extract
+    variable: none
+  36:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &eleft-click-block&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: honey_bottle
+      name: '{#00bfff}Quest 42'
+    name: Tik Tik
+    points: 10
+    required-progress: 21
+    type: left-click-block
+    variable: none
+  37:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &ehoney-comb-extract&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: feather
+      name: '{#00bfff}Quest 46'
+    name: Waskunstenaar
+    points: 10
+    required-progress: 29
+    type: honey-comb-extract
+    variable: none
+  38:
+    difficulty: medium
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eGemiddeld'
+      - '&e● &fXp(points): &e10'
+      - ''
+      - '&fVoer de actie &efly&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bone
+      name: '{#00bfff}Quest 49'
+    name: Vliegende Held
+    points: 10
+    required-progress: 11
+    type: fly
+    variable: none
+  39:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &edamage-player&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: furnace
+      name: '{#00bfff}Quest 3'
+    name: Pijnmeester
+    points: 20
+    required-progress: 37
+    type: damage-player
+    variable: none
+  40:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eblock-break&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: stick
+      name: '{#00bfff}Quest 10'
+    name: Blokkenbreker
+    points: 20
+    required-progress: 86
+    type: block-break
+    variable: none
+  41:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eleft-click-block&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: feather
+      name: '{#00bfff}Quest 11'
+    name: Tik Tik
+    points: 20
+    required-progress: 90
+    type: left-click-block
+    variable: none
+  42:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &econsume&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: honey_bottle
+      name: '{#00bfff}Quest 13'
+    name: Smulpartij
+    points: 20
+    required-progress: 44
+    type: consume
+    variable: none
+  43:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &emilk&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: dirt
+      name: '{#00bfff}Quest 19'
+    name: Melkmeester
+    points: 20
+    required-progress: 30
+    type: milk
+    variable: none
+  44:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eexecute-command&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bread
+      name: '{#00bfff}Quest 23'
+    name: Bevelvoerder
+    points: 20
+    required-progress: 59
+    type: execute-command
+    variable: none
+  45:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &echat&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: apple
+      name: '{#00bfff}Quest 29'
+    name: Kletskous
+    points: 20
+    required-progress: 90
+    type: chat
+    variable: none
+  46:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eleft-click&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bone
+      name: '{#00bfff}Quest 31'
+    name: Linkerhand Slag
+    points: 20
+    required-progress: 88
+    type: left-click
+    variable: none
+  47:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eenchant-all&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: shears
+      name: '{#00bfff}Quest 37'
+    name: Ultieme Betovering
+    points: 20
+    required-progress: 75
+    type: enchant-all
+    variable: none
+  48:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &ecraft&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: diamond
+      name: '{#00bfff}Quest 47'
+    name: Vlijtige Vingers
+    points: 20
+    required-progress: 67
+    type: craft
+    variable: none
+  49:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eregenerate&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: wheat
+      name: '{#00bfff}Quest 48'
+    name: Herstelheld
+    points: 20
+    required-progress: 29
+    type: regenerate
+    variable: none
+  50:
+    difficulty: hard
+    item:
+      lore:
+      - ''
+      - '&e● &fSoort: &eMoeilijk'
+      - '&e● &fXp(points): &e15'
+      - ''
+      - '&fVoer de actie &eright-click-block&f uit'
+      - ''
+      - '{#00bfff}→ &fVoortgang: {#00bfff}%total_progress%&f/{#00bfff}%required_progress%'
+      material: bone
+      name: '{#00bfff}Quest 50'
+    name: Interactieve Bouwer
+    points: 20
+    required-progress: 83
+    type: right-click-block
+    variable: none
